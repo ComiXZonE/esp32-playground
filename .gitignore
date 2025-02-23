@@ -1,3 +1,7 @@
+.devcontainer/
 build/
 sdkconfig
 sdkconfig.old
+sdkconfig.ci
+result.bin
+commands.txt

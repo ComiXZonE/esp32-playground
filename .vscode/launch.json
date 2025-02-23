@@ -1,0 +1,19 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "gdb",
+            "gdbpath": "/opt/esp/tools/xtensa-esp-elf-gdb/15.2_20241112/xtensa-esp-elf-gdb/bin/xtensa-esp32-elf-gdb",
+            "request": "attach",
+            "name": "Attach to QEMU",
+            "executable": "${workspaceFolder}/build/esp32-playground.elf",
+            "target": ":1234",
+            "remote": true,
+            "cwd": "${workspaceRoot}",
+            "valuesFormatting": "parseText"
+          },
+    ]
+}
